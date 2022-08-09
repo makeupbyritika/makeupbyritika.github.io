@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist's Makeup Studio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#home" class="logo"> <img src="images/logo.png" alt=""> </a>
+
+    
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <!-- <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a> -->
+    </div>
+
+</header>
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times"></div>
+    <a href="#home" style="color: black;">home</a>
+    <a href="#about" style="color: black;">about</a>
+    <a href="#gallery" style="color: black;">gallery</a>
+    <a href="#reviews" style="color: black;">reviews</a>
+    <a href="#contact-footer" style="color: black;">contact</a>
+</nav>
+
+<!-- navbar section  -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide active">
+        <div class="content">
+            <img src="images/home-img-1-1.jpg" alt="">
+            <span style="text-align: center;">Have a Stunning & Exclusive Bridal Look with our High Skilled Experts</span>
+            <!-- <h3>Artist's</h3> -->
+            <a style="align-self: center;" href="#gallery-bridal" class="btn">see more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-1.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/home-img-2-2.JPG" alt="">
+            <span style="text-align: center;">Love of beauty is taste. The creation of beauty is art</span>
+            <a style="align-self: center;" href="#gallery-fashion" class="btn">see more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-2.JPG" alt="">
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <img src="images/home-img-3-3.jpg" alt="">
+            <span style="text-align: center;">Your eye makeup says so much about you and your style</span>
+            <a style="align-self: center;" href="#gallery-eye" class="btn">see more</a>
+            <div class="controls">
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/home-img-3.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="content">
+        <span>About us</span>
+        <h3>Ritika Baheti</h3>
+        <p>I will Confident make you feel reboxed, Beautiful and confident by enhancing yours natural looks
+
+            I have few year expirence in the world of makeup am passionate about making each and every client feel fabulous in their own skin</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+    
+</section>
+
+<!-- about section ends -->
+
+<!-- gallery section starts  -->
+<div id="gallery">
+    <section class="gallery" id="gallery-bridal">
+
+        <div class="heading">
+            <h1>Bridal gallery</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+        </div>
+
+        <div class="lightbox">
+            <a href="images/bridal/bridal-1.jpg"><img src="images/bridal/bridal-1.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-2.jpg"><img src="images/bridal/bridal-2.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-3.jpg"><img src="images/bridal/bridal-3.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-4.jpg"><img src="images/bridal/bridal-4.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-5.JPG"><img src="images/bridal/bridal-5.JPG" alt="" ></a>
+            <a href="images/bridal/bridal-6.JPG"><img src="images/bridal/bridal-6.JPG" alt="" ></a>
+            <a href="images/bridal/bridal-7.jpg"><img src="images/bridal/bridal-7.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-8.jpg"><img src="images/bridal/bridal-8.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-9.jpg"><img src="images/bridal/bridal-9.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-10.jpg"><img src="images/bridal/bridal-10.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-11.jpg"><img src="images/bridal/bridal-11.jpg" alt="" ></a>
+            <a href="images/bridal/bridal-12.jpg"><img src="images/bridal/bridal-12.jpg" alt="" ></a>
+        </div>
+    </section>
+
+    <section class="gallery gallery-Wedding">
+
+        <div class="heading">
+            <h1>Wedding gallery</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+        </div>
+
+        <div class="lightbox lightbox-Wedding">
+            <a href="images/wedding/wed-1.jpg"><img src="images/wedding/wed-1.jpg"alt=""></a>
+            <a href="images/wedding/wed-2.jpg"><img src="images/wedding/wed-2.jpg" alt=""></a>
+            <a href="images/wedding/wed-3.jpg"><img src="images/wedding/wed-3.jpg"alt=""></a>
+            <a href="images/wedding/wed-4.jpg"><img src="images/wedding/wed-4.jpg"alt=""></a>
+            <a href="images/wedding/wed-5.jpg"><img src="images/wedding/wed-5.jpg"alt=""></a>
+            <a href="images/wedding/wed-6.JPG"><img src="images/wedding/wed-6.JPG"alt=""></a>
+            <a href="images/wedding/wed-7.JPG"><img src="images/wedding/wed-7.JPG"alt=""></a>
+            <!-- <a href="images/wedding/wed-8.JPG"><img src="images/wedding/wed-8.JPG"alt=""></a> -->
+            <a href="images/wedding/wed-9.JPG"><img src="images/wedding/wed-9.JPG"alt=""></a>
+            <a href="images/wedding/wed-10.JPG"><img src="images/wedding/wed-10.JPG" alt=""></a>
+            <a href="images/wedding/wed-11.jpg"><img src="images/wedding/wed-11.jpg" alt=""></a>
+            <a href="images/wedding/wed-12.jpg"><img src="images/wedding/wed-12.jpg" alt=""></a>
+            <a href="images/wedding/wed-13.jpg"><img src="images/wedding/wed-13.jpg" alt=""></a>
+        </div>
+    </section>
+</div>
+<section class="gallery gallery-eye" id="gallery-eye">
+
+    <div class="heading">
+        <h1>Eye Makeup</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+    </div>
+
+    <div class="lightbox lightbox-eye">
+        <a href="images/eye/eye-1.jpg"><img src="images/eye/eye-1.jpg" alt=""></a>
+        <a href="images/eye/eye-2.jpg"><img src="images/eye/eye-2.jpg" alt=""></a>
+        <a href="images/eye/eye-3.jpg"><img src="images/eye/eye-3.jpg" alt=""></a>
+        <a href="images/eye/eye-4.jpg"><img src="images/eye/eye-4.jpg" alt=""></a>
+        <a href="images/eye/eye-5.jpg"><img src="images/eye/eye-5.jpg" alt=""></a>
+        <a href="images/eye/eye-6.jpg"><img src="images/eye/eye-6.jpg" alt=""></a>
+    </div>
+</section>
+
+<section class="gallery gallery-fashion" id="gallery-fashion">
+
+    <div class="heading">
+        <h1>Fashion gallery</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+    </div>
+
+    <div class="lightbox lightbox-fashion">
+        <a href="images/fashion/fashion-0.jpeg"><img src="images/fashion/fashion-0.jpeg" alt=""></a>
+        <a href="images/fashion/fashion-1.jpg"><img src="images/fashion/fashion-1.jpg" alt=""></a>
+        <a href="images/fashion/fashion-2.JPG"><img src="images/fashion/fashion-2.JPG" alt=""></a>
+        <a href="images/fashion/fashion-3.JPG"><img src="images/fashion/fashion-3.JPG" alt=""></a>
+        <a href="images/fashion/fashion-4.JPG"><img src="images/fashion/fashion-4.JPG" alt=""></a>
+        <a href="images/fashion/fashion-5.jpeg"><img src="images/fashion/fashion-5.jpeg" alt=""></a>
+        <a href="images/fashion/fashion-6.jpg"><img src="images/fashion/fashion-6.jpg" alt=""></a>
+        <a href="images/fashion/fashion-7.jpg"><img src="images/fashion/fashion-7.jpg" alt=""></a>
+        <a href="images/fashion/fashion-8.jpg"><img src="images/fashion/fashion-8.jpg" alt=""></a>
+        <a href="images/fashion/fashion-9.jpg"><img src="images/fashion/fashion-9.jpg" alt=""></a>
+        <a href="images/fashion/fashion-10.jpg"><img src="images/fashion/fashion-10.jpg" alt=""></a>
+        <a href="images/fashion/fashion-11.jpg"><img src="images/fashion/fashion-11.jpg" alt=""></a>
+        <a href="images/fashion/fashion-12.jpg"><img src="images/fashion/fashion-12.jpg" alt=""></a>
+        <a href="images/fashion/fashion-13.jpg"><img src="images/fashion/fashion-13.jpg" alt=""></a>
+        <a href="images/fashion/fashion-14.jpg"><img src="images/fashion/fashion-14.jpg" alt=""></a>
+        <a href="images/fashion/fashion-15.jpeg"><img src="images/fashion/fashion-15.jpg" alt=""></a>
+        <a href="images/fashion/fashion-16.jpg"><img src="images/fashion/fashion-16.jpg" alt=""></a>
+        <a href="images/fashion/fashion-17.jpg"><img src="images/fashion/fashion-17.jpg" alt=""></a>
+        <a href="images/fashion/fashion-18.jpg"><img src="images/fashion/fashion-18.jpg" alt=""></a>
+        <a href="images/fashion/fashion-19.jpg"><img src="images/fashion/fashion-19.jpg" alt=""></a>
+        <a href="images/fashion/fashion-20.jpg"><img src="images/fashion/fashion-20.jpg" alt=""></a>
+        <a href="images/fashion/fashion-21.jpg"><img src="images/fashion/fashion-21.jpg" alt=""></a>
+        <a href="images/fashion/fashion-22.jpg"><img src="images/fashion/fashion-22.jpg" alt=""></a>
+        <a href="images/fashion/fashion-23.jpeg"><img src="images/fashion/fashion-23.jpeg" alt=""></a>
+    </div>
+</section>
+
+
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <div class="heading">
+        <h1>Customer reviews</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+    </div>
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quis ipsa aspernatur incidunt iusto veniam cumque error quaerat officia. Aspernatur?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique, numquam non, quasi, voluptatibus perspiciatis fugiat incidunt veniam nulla in aut aliquid necessitatibus nobis reiciendis ullam explicabo. Nulla, rem adipisci.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aliquid mollitia voluptatem alias illo officiis.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quis ipsa aspernatur incidunt iusto veniam cumque error quaerat officia. Aspernatur?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-5.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sequi minima sed obcaecati iste beatae quo praesentium, deleniti earum velit labore nobis voluptates a quam veniam delectus fugiat! Saepe, eos!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="user">
+                    <img src="images/pic-6.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quis ipsa aspernatur incidunt iusto veniam cumque error quaerat officia. Aspernatur?</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews section ends  -->
+
+<!-- service section starts  -->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="contact-footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+            <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+            <a class="link" href="#contact-footer"> <i class="fas fa-angle-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> +91 9370592033 </p>
+            <p> <i class="fas fa-envelope"></i>ritikabaheti123@gmail.com </p>
+            <p> <i class="fas fa-map"></i> Pune, India - 411002 </p>
+            <div class="share">
+                <a href="https://www.facebook.com/people/Ritika-Baheti/100083895347445/" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/makeup_byritika_/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/ritika-pankaj-baheti-522543207/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact us</h3>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="contact us" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Team Techmac</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link      -->
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .lightbox'));
+    lightGallery(document.querySelector('.gallery-Wedding .lightbox-Wedding'));
+    lightGallery(document.querySelector('.gallery-eye .lightbox-eye'));
+    lightGallery(document.querySelector('.gallery-fashion .lightbox-fashion'));
+</script>
+    
+</body>
+</html>
